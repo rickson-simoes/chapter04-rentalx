@@ -22,8 +22,7 @@
 [Docker-url]: https://www.docker.com//
 [Docker-image]: https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=Docker&logoColor=white
 
-## Continuidade de aplicação - Utilizando testes (Jest & Super Test):
-
+## ``Continuidade de aplicação - Utilizando testes (Jest & Super Test)``
 
 ## Instruções para uso:
 
