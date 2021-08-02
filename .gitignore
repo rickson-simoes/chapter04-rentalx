@@ -2,5 +2,5 @@ node_modules
 dist
 yarn.lock
 .vscode
-
+yarn-error.log
 tmp
