@@ -20,7 +20,8 @@
     "swagger-ui-express": "^4.1.6",
     "tsyringe": "^4.6.0",
     "typeorm": "^0.2.34",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "ts-jest": "^27.0.4"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -41,7 +42,6 @@
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^27.0.6",
     "prettier": "^2.2.1",
-    "ts-jest": "^27.0.4",
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.2"
   }
