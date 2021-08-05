@@ -30,9 +30,9 @@ class AuthenticateUserUseCase {
       throw new AppError("Email or password incorrect! ");
     }
 
-    const userPasswordCompare = compare(password, user.password);
+    const passwordMatch = await compare(password, user.password);
 
-    if (!userPasswordCompare) {
+    if (!passwordMatch) {
       throw new AppError("Email or password incorrect! ");
     }
 
