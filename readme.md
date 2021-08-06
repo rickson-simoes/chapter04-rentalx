@@ -25,12 +25,12 @@
 ## ``Continuidade de aplicação - Utilizando testes``
 
 ## Instruções para uso Docker:
-1º - docker-compose up
+- docker-compose up
 
 ## Instruções para uso Local:
-1º - yarn
-2ª - yarn dev
-3ª - Configurar Postgres -> Arquivo `ormconfig.json` (raíz do projeto)
+- yarn
+- yarn dev
+- Configurar Postgres -> Arquivo `ormconfig.json` (raíz do projeto)
 
 ## Tutorial explicativo das Rotas com Swagger, acessar:
 Acessar: http://localhost:3333/api-docs/
