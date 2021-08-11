@@ -38,7 +38,6 @@ Acessar: http://localhost:3333/api-docs/
 ## RF/ RNF/ RN - Cadastro do carro:
 **RF** - Requisitos funcionais
 - Deve ser possível cadastrar um novo carro.
-- Deve ser possível listar todas as categorias.
 
 **RN** - Regras de negócio
 - Não deve ser possível cadastrar um carro com uma placa já existente.
