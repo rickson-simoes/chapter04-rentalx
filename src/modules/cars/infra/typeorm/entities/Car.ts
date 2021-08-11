@@ -1,21 +1,21 @@
 import { Column, Entity, PrimaryColumn } from "typeorm";
 import { v4 as uuidv4 } from "uuid";
 
-@Entity("cars")
+// @Entity("cars")
 class Car {
-  @PrimaryColumn()
+  // @PrimaryColumn()
   id?: string;
 
-  @Column()
+  // @Column()
   name: string;
 
-  @Column()
+  // @Column()
   description: string;
 
-  @Column()
+  // @Column()
   daily_rate: number;
 
-  available: boolean;
+  available?: boolean;
 
   license_plate: string;
 
@@ -26,6 +26,14 @@ class Car {
   category_id: string;
 
   created_at: Date;
+
+  constructor() {
+    if (!this.id) {
+      this.id = uuidv4();
+      this.available = true;
+      this.created_at = new Date();
+    }
+  }
 }
 
 export { Car };
