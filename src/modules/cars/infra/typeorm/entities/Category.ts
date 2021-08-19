@@ -20,8 +20,8 @@ class Category {
   @Column()
   description: string;
 
-  // @OneToMany(() => Car, (car) => car.category)
-  // car: Car[];
+  @OneToMany(() => Car, (car) => car.category)
+  car: Car[];
 
   @CreateDateColumn()
   created_at: Date;
