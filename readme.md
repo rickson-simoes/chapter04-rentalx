@@ -69,7 +69,7 @@ Acessar: http://localhost:3333/api-docs/
 ## RF/ RNF/ RN - Cadastro de imagens do carro
 **RF** - Requisitos funcionais
 - Deve ser possível cadastrar a imagem do carro.
-- Deve ser possível listar todos os carros.
+<!-- - Deve ser possível listar todos os carros. -->
 
 **RNF** - Requisitos Não funcionais
 - Utilizar o `multer` para upload dos arquivos.
