@@ -89,7 +89,6 @@ Acessar: http://localhost:3333/api-docs/
 - O usuário deve estar logado na aplicação.
 
 ## RF/ RNF/ RN - Devolução de carro
-
 **RF** - Requisitos funcionais
 - Deve ser possível realizar a devolução de um carro
 
